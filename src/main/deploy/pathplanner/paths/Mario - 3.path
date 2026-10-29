@@ -1,0 +1,89 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.979,
+        "y": 5.302
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.979,
+        "y": 5.302
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.351346153846155,
+        "y": 5.302
+      },
+      "prevControl": {
+        "x": 5.083871794871796,
+        "y": 5.407128205128206
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.0,
+      "rotationDegrees": 0.0
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "LINE UPPPP",
+      "waypointRelativePos": 0.0,
+      "endWaypointRelativePos": 0.95,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Can Line Up"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "STOPPPPPP",
+      "waypointRelativePos": 0.95,
+      "endWaypointRelativePos": 1.0,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Can't Line Up"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 2.0,
+    "maxAcceleration": 2.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -4.715280079043139
+  },
+  "reversed": false,
+  "folder": "Mario",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -36.21268712899111
+  },
+  "useDefaultConstraints": false
+}

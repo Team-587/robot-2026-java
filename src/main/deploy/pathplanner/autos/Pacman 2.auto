@@ -1,0 +1,133 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto - Start"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.1
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Kicker On"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Kicker Off"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Can't Line Up"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Pacman - Leg 2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Pacman - Leg 3"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Kicker On"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Kicker Off"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Can't Line Up"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Pacman - Leg 2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Pacman - Leg 3"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.1
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Kicker On"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Kicker Off"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Can't Line Up"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Bad",
+  "choreoAuto": false
+}

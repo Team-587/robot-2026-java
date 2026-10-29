@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.0256538461538476,
+        "y": 6.825769230769231
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.8861666666666688,
+        "y": 6.697858974358974
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.572179487185301,
+        "y": 4.058256410250596
+      },
+      "prevControl": {
+        "x": 1.5721794871853012,
+        "y": 4.058256410250596
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.974,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Mario",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -92.79270236571327
+  },
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,31 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Toggle"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auto - Start"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "Shoot Auto"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}

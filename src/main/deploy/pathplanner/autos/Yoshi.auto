@@ -1,0 +1,25 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Intake Middle"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Yoshi Start"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Bad",
+  "choreoAuto": false
+}
